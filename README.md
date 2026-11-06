@@ -2,8 +2,8 @@
 
 A 3-step onboarding form (Personal info, Account details, Review and submit) built with React, react-hook-form and zod. Sprint 07 assignment.
 
-- **Live URL:** _add your Vercel/Netlify link_
-- **Demo video:** _add your link_
+- **Live URL:** https://rad-llama-c129cc.netlify.app
+- **Demo video:** 
 
 ## Tech stack
 React 18, Vite, react-hook-form, zod, @hookform/resolvers, plain CSS. One route, no backend.
