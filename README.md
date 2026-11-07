@@ -13,7 +13,6 @@ React 18, Vite, react-hook-form, zod, @hookform/resolvers, plain CSS. One route,
 npm install
 npm run dev
 ```
-
 ## How state persists across steps
 `RegistrationWizard.jsx` creates a single `useForm()` instance and shares it through `FormProvider`. Steps read it with `useFormContext()`. When a step unmounts, react-hook-form keeps the values in its own store (`shouldUnregister` is false), so pressing Back restores every field.
 
